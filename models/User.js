@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+//dummy models for testing purpose
 const UserSchema = new mongoose.Schema({
   name: { type: String },
   email: { type: String },
