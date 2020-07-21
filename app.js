@@ -4,6 +4,8 @@ const mongoose = require("mongoose");
 const flash = require("connect-flash");
 const session = require("express-session");
 const passport = require("passport");
+var d3 = require("d3");
+
 const app = express();
 
 //Passport config

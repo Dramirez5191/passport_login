@@ -14,7 +14,7 @@ module.exports = {
     if (req.isAuthenticated()) {
       return next();
     }
-    //if user isn not Authenticated redirect to the login page so that they may log in
-    res.redirect("/users/login");
+    //if user isn not Authenticated redirect to the home page so that they may log in
+    res.redirect("/");
   },
 };
